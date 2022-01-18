@@ -1,0 +1,42 @@
+const quizData = [
+  {
+    question: "Which of the following is capital city of Nepal?",
+    a: "Tokyo",
+    b: "Paris",
+    c: "London",
+    d: "Kathmandu",
+    correct: "d",
+  },
+  {
+    question: "Where was Gautam Buddha born?",
+    a: "Nepal",
+    b: "China",
+    c: "Thailand",
+    d: "Japan",
+    correct: "a",
+  },
+  {
+    question: "Who is the president of USA(2020)?",
+    a: "Donald Trump",
+    b: "Joe Biden",
+    c: "Barrack Obama",
+    d: "Bill Clinton",
+    correct: "b",
+  },
+  {
+    question: "Who is the winner of the Ballon d'Or 2021?",
+    a: "C. Ronaldo",
+    b: "R. Lewandowski",
+    c: "L. Messi",
+    d: "Kylian Mbappe",
+    correct: "c",
+  },
+  {
+    question: "What does API stands for in computer science?",
+    a: "All Purpose Internet",
+    b: "Application Programming Interface",
+    c: "Application Programming Internet",
+    d: "Algorithm Programming Interface",
+    correct: "b",
+  },
+];

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100&family=Ubuntu:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Florin Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="quiz-title">
+        <h1>Quiz App</h1>
+      </div>
+      <div class="quiz-header">
+        <h3 id="question">Question Text</h3>
+      </div>
+      <ul>
+        <li>
+          <input type="radio" id="a" name="answer" />
+          <label id="text-a" for="a">a</label>
+        </li>
+        <li>
+          <input type="radio" id="b" name="answer" />
+          <label id="text-b" for="b">b</label>
+        </li>
+        <li>
+          <input type="radio" id="c" name="answer" />
+          <label id="text-c" for="c">c</label>
+        </li>
+        <li>
+          <input type="radio" id="d" name="answer" />
+          <label id="text-d" for="d">d</label>
+        </li>
+      </ul>
+      <button id="submit">Submit</button>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
